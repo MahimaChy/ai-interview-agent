@@ -1,0 +1,240 @@
+body {
+
+    background: #f4f4f4;
+
+    font-family: Arial;
+}
+
+.container {
+
+    width: 80%;
+
+    max-width: 1000px;
+
+    margin: auto;
+
+    margin-top: 30px;
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    text-align: center;
+}
+
+input,
+textarea {
+
+    width: 90%;
+
+    padding: 12px;
+
+    margin: 10px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+}
+
+textarea {
+
+    height: 120px;
+}
+
+button {
+
+    padding: 12px 20px;
+
+    margin: 10px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    background: blue;
+
+    color: white;
+
+    cursor: pointer;
+}
+
+table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin-top: 20px;
+}
+
+th,
+td {
+
+    border: 1px solid #ccc;
+
+    padding: 10px;
+}
+
+th {
+
+    background: blue;
+
+    color: white;
+}
+
+
+/* ---------- Evaluation panel ---------- */
+
+.evaluation {
+
+    text-align: left;
+
+    background: #f9f9fb;
+
+    border: 1px solid #e1e1e8;
+
+    border-radius: 8px;
+
+    padding: 20px 24px;
+
+    margin: 20px 0;
+
+    line-height: 1.55;
+
+    font-size: 15px;
+
+    color: #222;
+}
+
+.evaluation h1,
+.evaluation h2,
+.evaluation h3 {
+
+    margin: 18px 0 8px;
+
+    color: #1a1a3a;
+}
+
+.evaluation h3 {
+
+    font-size: 17px;
+}
+
+.evaluation p {
+
+    margin: 8px 0;
+}
+
+.evaluation ul,
+.evaluation ol {
+
+    padding-left: 22px;
+
+    margin: 8px 0;
+}
+
+.evaluation li {
+
+    margin: 4px 0;
+}
+
+.evaluation code {
+
+    background: #eef0f4;
+
+    padding: 2px 6px;
+
+    border-radius: 4px;
+
+    font-family: "SF Mono", Menlo, Consolas, monospace;
+
+    font-size: 13px;
+}
+
+.evaluation pre {
+
+    background: #1f2330;
+
+    color: #e6e6e6;
+
+    padding: 14px 16px;
+
+    border-radius: 6px;
+
+    overflow-x: auto;
+
+    margin: 12px 0;
+}
+
+.evaluation pre code {
+
+    background: transparent;
+
+    color: inherit;
+
+    padding: 0;
+
+    font-size: 13px;
+}
+
+.evaluation strong {
+
+    color: #111;
+}
+
+.score {
+
+    margin-top: 12px;
+
+    color: #1a1a3a;
+}
+
+
+/* ---------- Markdown cells inside history table ---------- */
+
+.markdown-cell {
+
+    text-align: left;
+
+    max-width: 480px;
+
+    vertical-align: top;
+}
+
+.markdown-cell pre {
+
+    background: #1f2330;
+
+    color: #e6e6e6;
+
+    padding: 10px;
+
+    border-radius: 4px;
+
+    overflow-x: auto;
+
+    font-size: 12px;
+}
+
+.markdown-cell code {
+
+    background: #eef0f4;
+
+    padding: 1px 4px;
+
+    border-radius: 3px;
+
+    font-family: "SF Mono", Menlo, Consolas, monospace;
+
+    font-size: 12px;
+}
+
+.markdown-cell ul,
+.markdown-cell ol {
+
+    padding-left: 20px;
+
+    margin: 4px 0;
+}

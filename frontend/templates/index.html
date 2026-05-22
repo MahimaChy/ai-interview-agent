@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>AI Interview Agent</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>AI Interview Agent</h1>
+
+        <input id="role"
+               placeholder="Role">
+
+        <input id="skills"
+               placeholder="Skills (python, sql)">
+
+        <input id="experience"
+               placeholder="Experience">
+
+        <button onclick="startInterview()">
+            Start Interview
+        </button>
+
+        <div id="questionBox"></div>
+
+        <textarea id="answerBox"
+                  placeholder="Write answer here"></textarea>
+
+        <button onclick="submitAnswer()">
+            Submit Answer
+        </button>
+
+        <button id="nextBtn"
+                onclick="nextQuestion()"
+                style="display:none;">
+            Next Question
+        </button>
+
+        <button onclick="viewHistory()">
+            View History
+        </button>
+
+        <button onclick="deleteHistory()">
+            Delete History
+        </button>
+
+        <div id="result"></div>
+
+    </div>
+
+    <script src="/static/script.js"></script>
+
+</body>
+</html>
